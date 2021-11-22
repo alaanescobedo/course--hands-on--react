@@ -11,6 +11,6 @@ const Template: Story<LegendsProps> = (args) => <Legend {...args} />;
 export const GameLegend = Template.bind({});
 GameLegend.args = {
   feature: "Flag",
-  firstAction: "ctrl",
-  secondAction: "click",
+  firstAction: "Ctrl",
+  secondAction: "Click",
 };
