@@ -10,5 +10,6 @@ module.exports = {
   mutate: [
     "src/**/*.ts?(x)",
     "!src/**/*@(.test|spec|Spec|stories|styled).ts?(x)",
+    "src/**/*stories.snap.js"
   ],
 };

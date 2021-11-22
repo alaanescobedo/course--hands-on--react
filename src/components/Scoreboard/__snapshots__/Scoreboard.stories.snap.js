@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Scoreboard/Scoreboard Scoreboard Example 1`] = `
+<div
+  className="css-1gexv9m"
+>
+  <div
+    className="css-q796n5"
+  >
+    000
+  </div>
+  <select
+    className="css-oyqqd"
+  >
+    <option
+      className="css-zcmdxr"
+      value="Begginer"
+    >
+      Begginer
+    </option>
+    <option
+      className="css-zcmdxr"
+      value="Intermediate"
+    >
+      Intermediate
+    </option>
+    <option
+      className="css-zcmdxr"
+      value="Expert"
+    >
+      Expert
+    </option>
+  </select>
+  <button
+    className="css-15ja8qh"
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+  >
+    🙂
+  </button>
+  <div
+    className="css-q796n5"
+  >
+    010
+  </div>
+</div>
+`;
