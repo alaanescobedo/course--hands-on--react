@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1637555881936" clover="3.2.0">
-  <project timestamp="1637555881936" name="All files">
-    <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3" elements="13" coveredelements="13" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
-    <file name="Reset.tsx" path="/home/alan/dev/courses/1/course--hands-on--react/src/components/Scoreboard/Reset.tsx">
-      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+<coverage generated="1637599452968" clover="3.2.0">
+  <project timestamp="1637599452968" name="All files">
+    <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3" elements="12" coveredelements="10" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+    <file name="useMouse.ts" path="/home/alan/dev/courses/1/course--hands-on--react/src/components/hooks/useMouse.ts">
+      <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
       <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="12" count="8" type="stmt"/>
-      <line num="14" count="8" type="stmt"/>
-      <line num="15" count="8" type="stmt"/>
-      <line num="17" count="8" type="stmt"/>
-      <line num="29" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="4" type="stmt"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="15" count="4" type="stmt"/>
+      <line num="17" count="4" type="stmt"/>
     </file>
   </project>
 </coverage>
