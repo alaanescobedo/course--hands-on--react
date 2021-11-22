@@ -1,13 +1,13 @@
-import { Cell, CellProps } from './Cell';
+import { Cell, CellProps } from "./Cell";
 import { ComponentMeta, Story } from "@storybook/react";
 export default {
   title: "Grid/Cell",
   component: Cell,
   argTypes: {
     coords: {
-      defaultValue: [1,1]
-    }
-  }
+      defaultValue: [1, 1],
+    },
+  },
 } as ComponentMeta<typeof Cell>;
 
 const Template: Story<CellProps> = (args) => <Cell {...args} />;
@@ -39,5 +39,5 @@ CellWeakFlag.args = {
 
 export const CellWithNumber = Template.bind({});
 CellWithNumber.args = {
-  children: 2,
+  children: 2
 };
