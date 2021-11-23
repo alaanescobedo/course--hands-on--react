@@ -6,6 +6,18 @@ import { Cell, isActiveCell } from './Cell';
 describe("Cell Component", () => {
   const coords: Coords = [1, 1];
   for (let cell = CellState.empty; cell <= CellState.weakFlag; cell++) {
+    test('Cell renders correctly', () => {
+      const props = {
+        coords,
+        onClick: jest.fn(),
+        onContextMenu: jest.fn(),
+      };
+
+      const { asFragment } = render(<Cell {...props}>{cell}</Cell>);
+
+      expect(asFragment()).toMatchSnapshot();
+    });
+
     test("check prevent default contextMenu for every type of cell", () => {
       const props = {
         coords,

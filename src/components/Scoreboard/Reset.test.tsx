@@ -9,6 +9,13 @@ describe("Reset Component", () => {
     render(<Reset onReset={onReset} />);
   });
 
+  test('Reset renders correctly', () => {
+    const onReset = jest.fn();
+
+    const { asFragment } = render(<Reset onReset={onReset} />);
+
+    expect(asFragment()).toMatchSnapshot();
+  });
   test("should render elements with default state", () => {
     expect(screen.getByText("🙂")).toBeInTheDocument();
   });
