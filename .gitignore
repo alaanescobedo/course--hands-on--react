@@ -5,5 +5,5 @@ dist-ssr
 *.local
 
 coverage
-.vscode
+/.vscode
 reports
