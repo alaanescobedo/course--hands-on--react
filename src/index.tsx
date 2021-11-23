@@ -1,5 +1,4 @@
 import ReactDOM from "react-dom";
+import App from "./app";
 
-import { Legend } from "./components/Legend";
-
-ReactDOM.render(<Legend />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));

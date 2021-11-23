@@ -15,5 +15,5 @@ export const Top: FC<TopComponentType> = ({ children, ...legendProps }) => (
 const Header = styled.header`
   text-align: center;
   position: relative;
-  display: inline-inline-block;
+  display: inline-block;
 `;

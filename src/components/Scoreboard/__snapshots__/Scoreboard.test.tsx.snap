@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scoreboard renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="css-1gexv9m"
+  >
+    <div
+      class="css-q796n5"
+    >
+      000
+    </div>
+    <select
+      class="css-oyqqd"
+    >
+      <option
+        class="css-zcmdxr"
+        value="beginner"
+      >
+        beginner
+      </option>
+      <option
+        class="css-zcmdxr"
+        value="intermediate"
+      >
+        intermediate
+      </option>
+      <option
+        class="css-zcmdxr"
+        value="expert"
+      >
+        expert
+      </option>
+    </select>
+    <button
+      class="css-15ja8qh"
+    >
+      🙂
+    </button>
+    <div
+      class="css-q796n5"
+    >
+      010
+    </div>
+  </div>
+</DocumentFragment>
+`;
