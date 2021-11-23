@@ -8,6 +8,7 @@
     "serve": "vite preview",
     "chromatic": "npx chromatic --project-token=49111152d69d",
     "test": "jest",
+    "test:mutate":"stryker run",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "prepare": "husky install"
@@ -28,6 +29,7 @@
     "@storybook/addon-essentials": "6.3.12",
     "@storybook/addon-links": "6.3.12",
     "@storybook/react": "6.3.12",
+    "@stryker-mutator/core": "5.4.1",
     "@testing-library/jest-dom": "5.15.0",
     "@testing-library/react": "12.1.2",
     "@testing-library/react-hooks": "7.0.2",
@@ -46,6 +48,8 @@
     "husky": "7.0.4",
     "jest": "27.3.1",
     "prettier": "2.4.1",
+    "stryker": "0.35.1",
+    "stryker-cli": "1.0.2",
     "ts-jest": "27.0.7",
     "typescript": "^4.3.2",
     "vite": "^2.6.4"
