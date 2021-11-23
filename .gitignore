@@ -7,3 +7,4 @@ dist-ssr
 coverage
 .vscode/*
 reports
+build-storybook.log
